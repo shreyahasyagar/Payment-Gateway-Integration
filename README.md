@@ -1,15 +1,27 @@
-# Payment-Gateway-Integration
+# 💳 Payment Gateway / Landing Page — The Sparks Foundation
 
-The Sparks Foundation
+A responsive marketing landing page built as part of **The Sparks Foundation** Web & Mobile Development internship tasks.
 
-Web and Mobile Development Tasks
+## ✨ Features
 
-Task 3
+- Responsive layout (HTML5 + CSS3).
+- Animated content reveals with **ScrollReveal**.
+- Image/testimonial slider with **Swiper.js**.
+- Background video hero section.
 
-#GRIPSEPTEMBER21
+## 🗂️ Structure
 
-The task here is to create a simple website where payment gateway is integrated.The website is built using HTML,CSS and JS for the front-end and uses Razorpay for backend. The website also allows you change website theme. 
-The website provides necessary information and urges the user to donate and provides an interface to do so. The website also redirects to the official page of The Sparks Foundation.
+```
+index.html          # page markup
+css/styles.css      # custom styles
+js/main.js          # interactions
+img/  ·  video/     # media assets
+```
 
-When the user decides to donate, he is redirected to razorpay page. The user is asked necessary information and the user can pick a way to donate through UPI, Credit/Debit Card, Netbanking, Wallet, ePayLater and more.
-On successful donation, the user will receive the payment receipt for successful doantion through registered mail.
+## ▶️ Run
+
+Open `index.html` in a browser, or serve locally:
+
+```bash
+python3 -m http.server 8080
+```
